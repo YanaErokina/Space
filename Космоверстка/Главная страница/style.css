@@ -1,0 +1,333 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+li {
+  color: #feca30;
+}
+
+li span {
+  color: black;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h4 {
+  color: #feca30;
+  font-size: 24px;
+}
+
+article p {
+  color: #222222;
+  font-size: 14px;
+}
+
+header {
+  background-color: #222222;
+}
+
+footer {
+  background-color: #131313;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2em;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: column;
+}
+
+footer div {
+  margin-right: 10em;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+
+table {
+  width: 60%;
+}
+
+th {
+  border-bottom: 2px solid #555555;
+  height: 3em;
+}
+
+thead {
+  background-color: #111111;
+}
+
+input {
+  color: #222222;
+  padding: 2%;
+  border: 2px solid white;
+  border-radius: 50em;
+  outline: none;
+}
+
+.navigation-panel {
+  padding-top: 2em;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.other-contacts {
+  text-align: end;
+}
+
+.lists-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-description {
+  display: flex;
+  justify-content: center;
+  background-color: #222222;
+  padding-left: 250px;
+}
+
+.intro-arrow {
+  align-self: center;
+  margin-left: auto;
+  width: 19px;
+  height: 16px;
+  background-image: url("/img/right-arrow-dark.png");
+}
+
+.get-tour {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+.get-tour-button {
+  padding: 2%;
+  display: flex;
+  flex-direction: row !important;
+  color: black;
+  width: 20em;
+  height: 5em;
+  background-color: #feca30;
+  border-radius: 10em;
+  border: none;
+  outline: none;
+  margin-right: 50em;
+}
+
+.get-tour-text {
+  width: 350px;
+  font-size: large;
+}
+
+.advantages {
+  background-color: #131313;
+}
+
+.advantages-div {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  animation: advantages-anim 2s alternate ease-out;
+  animation-fill-mode: forwards;
+}
+
+.advantage-style {
+  font-size: 14px;
+  margin: 5em;
+  width: 100px;
+}
+
+.description-of-tour {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-left: 3em;
+}
+
+.description-of-tour ul,
+p {
+  font-size: 20px;
+}
+
+.description-of-tour div {
+  margin: 2em;
+  margin-top: 50px;
+}
+
+.send-confirm {
+  display: flex;
+  justify-content: center;
+  flex-direction: row !important;
+  color: white;
+  width: 35em;
+  height: 10em;
+  background-color: black;
+  border-radius: 10em;
+  border: none;
+  outline: none;
+  margin-right: 50em;
+  font-size: 5px;
+  padding: 2%;
+}
+
+.send-request-of-tour {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f0f0f0;
+  margin-top: 5px;
+  padding: 2em;
+}
+
+.send-request-of-tour p {
+  margin-right: 10px;
+}
+
+.request-form input {
+  height: 2em;
+  margin-top: 5px;
+}
+
+.request-form {
+  display: flex;
+  flex-direction: column;
+  width: 50em;
+  margin-left: 2%;
+}
+
+.heigth-weigth-input-box input {
+  width: 50%;
+}
+
+.heigth-weigth-input-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.confirm-personal-data {
+  display: flex;
+  flex-direction: row;
+}
+
+.confirm-personal-data p {
+  margin-left: 1%;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #222222;
+  font-size: 14px;
+}
+
+.table-of-flights {
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2em;
+}
+
+.table-of-flights a {
+  color: #feca30 !important;
+  text-decoration: none;
+}
+
+.logo-with-name {
+  display: flex;
+  flex-direction: row;
+}
+
+.copyright p {
+  font-size: 13px;
+  color: #555555;
+}
+
+.footer-navigation-panel {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-navigation-panel nav {
+  margin: 10px;
+}
+
+.footer-navigation-panel nav p {
+  font-size: 14px;
+  border-bottom: 2px solid #555555 !important;
+  margin-bottom: 3em;
+}
+
+.footer-navigation-panel nav a {
+  color: #888888;
+  margin: 10px !important;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2%;
+}
+
+.rocket-image {
+  background-image: url("../img/moon-rocket.png");
+  width: 438px;
+  height: 438px;
+  animation: moon-rocket-image-anim 2s alternate;
+  animation-fill-mode: forwards;
+}
+
+.other-contacts {
+  display: flex;
+  flex-direction: row;
+}
+
+.other-contacts li {
+  list-style-type: none;
+}
+
+@keyframes moon-rocket-image-anim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes advantages-anim {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 0%;
+  }
+}
